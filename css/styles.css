@@ -31,6 +31,25 @@ li {
 
 /* ----------------------------HEADER-------------------------------- */
 
+.header {
+  display: flex;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav {
+  display: flex;
+}
+
 .item-logo {
   color: var(--color5);
 }
@@ -44,6 +63,7 @@ li {
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-right: 76px;
 }
 
 .logo:link {
@@ -70,11 +90,15 @@ li {
 
 .header-address {
   font-style: normal;
+  display: flex;
 }
 
 .addresses {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  gap: 40px;
+  padding-left: 332px;
 }
 
 .address {
@@ -108,6 +132,7 @@ li {
   text-align: center;
   letter-spacing: 0.02em;
   padding-bottom: 48px;
+  min-width: 496px;
 }
 
 .button {
@@ -120,6 +145,14 @@ li {
   background: #4d5ae5;
   line-height: 1.5;
   cursor: pointer;
+  min-width: 169px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
 }
 
 .button:hover {
@@ -131,6 +164,11 @@ li {
 }
 
 /* ----------------------------Functions-------------------------------- */
+
+.functions-list {
+  display: flex;
+  gap: 24px;
+}
 
 .section-functions {
   padding-top: 138px;
@@ -153,6 +191,7 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
 }
 
 /* -------------------------SERVICES-------------------------------- */
@@ -172,7 +211,16 @@ li {
   padding-bottom: 120px;
 }
 
+.services-list {
+  display: flex;
+  gap: 24px;
+}
 /* -------------------------TEAM-------------------------------- */
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 
 .section-team-header {
   font-style: normal;
@@ -184,6 +232,7 @@ li {
   text-transform: capitalize;
   color: var(--color5);
   padding-bottom: 72px;
+  padding-top: 120px;
 }
 
 .section-names {
@@ -193,6 +242,8 @@ li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color5);
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .section-profecions {
@@ -204,12 +255,14 @@ li {
 
 .section-team {
   background: #f4f4fd;
+  padding-bottom: 120px;
 }
 
 .section-team-li {
   background-color: #ffffff;
   width: 264px;
   height: 380px;
+  text-align: center;
 }
 
 /* ----------------------------Footer-------------------------------- */
@@ -221,6 +274,7 @@ li {
   color: #f4f4fd;
   padding-top: 16px;
   padding-bottom: 100px;
+  width: 264px;
 }
 
 .footer-item-logo {
