@@ -75,7 +75,6 @@ ol {
   display: flex;
   gap: 40px;
   flex-shrink: 0;
-  padding: 24px 0;
 }
 
 .nav {
@@ -111,6 +110,7 @@ ol {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .navigation:hover {
@@ -257,11 +257,11 @@ ol {
 .services-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 
 .section-services-li {
   border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 /* -------------------------TEAM-------------------------------- */
 
@@ -365,7 +365,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color5);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-p {
