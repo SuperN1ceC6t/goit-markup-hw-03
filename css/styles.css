@@ -35,6 +35,12 @@ img {
   display: block;
 }
 
+.visiabity-hidden {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
 /* ----------------------------RESET-------------------------------- */
 
 h1,
